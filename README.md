@@ -1,0 +1,2 @@
+# Maltego
+Stuff for Maltego
