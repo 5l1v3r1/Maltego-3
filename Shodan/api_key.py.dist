@@ -1,0 +1,7 @@
+#!/usr/bin/python
+# API Key for Shodan
+
+def load_key():
+  SHODAN_KEY = "SUPERSECRETKEYHERE"
+
+  return SHODAN_KEY
