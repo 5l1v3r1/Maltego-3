@@ -14,9 +14,12 @@ m.parseArguments(sys.argv)
 
 try:
     host = api.host(sys.argv[1])
-    open_ports =  host['ports']
-    for port in open_ports:
-        m.addEntity('undeadsecurity.Port', str(port))
+    if len(host) == 0:
+        m.addUIMessage('No data in Shodan')
+    else:
+        open_ports =  host['ports']
+        for port in open_ports:
+            m.addEntity('undeadsecurity.Port', str(port))
 except Exception as e:
     m.addUIMessage(str(e))
 
