@@ -5,6 +5,7 @@ Various Maltego transforms for talking to the Shodan API.
 These all require the Paterva Maltego Python library and the Shodan Python library.
 
 Maltego Python Library: https://www.paterva.com/web6/documentation/developer-local.php
+
 Shodan Python Library: https://shodan.readthedocs.org/en/latest/
 
 
