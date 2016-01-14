@@ -14,3 +14,6 @@ Shodan Python Library: https://shodan.readthedocs.org/en/latest/
  * getHostInfo.py - Grab useful information on our host from Shodan
  * getHostPortBanners.py - Grabs ports and banners for a host
  * getHostPortBannersv2.py - Similar to getHostPortBanners.py but it stores the port details in the IP entity 
+
+The Maltego configuration files are in /Configs which can be imported directly into Maltego.
+You'll then just have to edit the paths.
