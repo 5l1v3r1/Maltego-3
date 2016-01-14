@@ -25,7 +25,8 @@ try:
             port = host['data'][i]['port']
             banner = host['data'][i]['data']
             port_data = str(port) + ":" + str(banner)
-            port_banner_data = portentity.addAdditionalFields('PortBanner', "Port:Banner", True, str(port_data))
+            port_banner_data = portentity.addAdditionalFields(str(port), "Port:Banner", True, str(port_data))
+
 except Exception as e:
     m.addUIMessage(str(e))
 
